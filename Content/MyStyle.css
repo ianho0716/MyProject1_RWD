@@ -1,0 +1,57 @@
+﻿body {
+}
+caption {
+
+    color: #344aca;
+    text-align: center;
+    caption-side: top;
+    font-size:1.3rem;
+}
+
+
+.table-hover tbody tr:hover {
+    color: #ff0000;
+    font-size: 1.6rem;
+    background-color: #b6ff00;
+}
+
+.MyTable{
+    overflow:auto;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #ff0000;
+    content: ">";
+}
+
+
+.jumbotron {
+    background-image: url('../photo/00.jpg');
+    background-repeat:round;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 3px black;
+}
+
+.modal-content {
+    background-repeat: round;
+    font-size:3rem;
+    color:#4f76f5;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    opacity: 0.2;
+}
+
+    .bg img {
+        min-height: 100%;
+        width: 100%;
+    }
